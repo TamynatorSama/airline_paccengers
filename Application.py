@@ -42,7 +42,7 @@ def Airline_Passenger_Pred():
                          Departure_Arrival_time_convenient, Ease_of_Online_booking, Gate_location, Food_and_drink, 
                          Online_boarding, Seat_comfort, Inflight_entertainment, On_board_service, Leg_room_service, 
                          Baggage_handling, Checkin_service, Inflight_service, Cleanliness, Departure_Delay_in_Minutes, 
-                         Arrival_Delay_in_Minutes])
+                         Arrival_Delay_in_Minutes,0])
         
         #reshape the data to fit the model
         data_reshape = data.reshape([1, -1])
