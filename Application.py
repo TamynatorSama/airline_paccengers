@@ -1,11 +1,10 @@
 #libraries importation
 import numpy as np
 import streamlit as st
-import joblib
-
+import pickle
 
 #import gbc trained model
-ada_model = joblib.load('./ada_model.sav', 'rb')
+ada_model = pickle.load(open('./ada_model.sav', 'rb'))
 
 #create interface
 def Airline_Passenger_Pred():
