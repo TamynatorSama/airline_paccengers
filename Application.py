@@ -1,7 +1,7 @@
 #libraries importation
 import numpy as np
 import streamlit as st
-import pickle
+import pickle4 as pickle
 
 #import gbc trained model
 ada_model = pickle.load(open('./ada_model.sav', 'rb'))
